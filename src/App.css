@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container {
+    background : #3f37c9;
+    width : 100%;
+    display : flex;
+    color : white;
+    padding : 20px;
+    font-weight : 600;
+    font-size : 20px;
+    align-items: center;
+  }
+
+  .header-item {
+    margin-right: 100px;
+  }
+
+  .header-search {
+    width: 300px;
+    position: relative;
+  }
+
+  .header-search label {
+    overflow: hidden;
+    text-indent: -9999px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 20px;
+    background-image: url(../src/images/search.png);
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+}
+
+.header-search input {
+    border: 0;
+    box-shadow: none;
+    line-height: 1;
+    padding: 10px 60px;
+    font-size: 18px;
+    border-radius: 3px;
+    /* width: 100%; */
+    box-sizing: border-box;
+    transition: all .4s;
+    background-color: #4895ef;
+    color: whitesmoke;
+}
+
+.header-search input::placeholder {
+    opacity: 0.5;
+}
+
+.header-search input:focus {
+    outline: 0;
+    box-shadow: 0 0 40px dodgerblue;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    justify-content: end;
+    margin-right: 56px;
+    margin-top: 20px;
+}
+
+.nav-item {
+    /* width: 100%; */
+    margin: 10px;
+}
+
+.nav-button {
+    background-color: #3f37c9;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .main {
+      width: 100%;
+      padding: 10px;
+      margin: 10px;
+  }
+
+  .contents {
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+}
+  
+  .form-input {
+    box-sizing: border-box;
+    width: 80%;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+  .w-50 {
+    width: 150px;
+    float: left;
+    padding: 10px;
+  }
+
+  .w-50-r {
+    width: 150px;
+    float: right;
+    padding: 10px;
+  }
+
+
+  label {
+      width: 30%;
+  }
+
+  .footer {
+    clear : both
+  }
