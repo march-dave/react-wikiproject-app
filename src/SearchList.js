@@ -15,7 +15,7 @@ function SearchList() {
 
     useEffect(()=>{
 
-        axios.get('http://localhost:3030/api/wikis/')
+        axios.get('https://simplewikiproject.herokuapp.com/api/wikis/')
                     .then((result)=>{ 
                         setInputs([...inputs, ...result.data]);
                     })
