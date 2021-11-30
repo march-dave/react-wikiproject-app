@@ -12,6 +12,9 @@ A simple deployment
 2. Run `node server.js`, and visit **localhost:8080**, voila your code is ready for heroku now.
 
 
+## Deployed cloud
+https://simplewikiproject.herokuapp.com/
+
 ## Ref: 
 Debug, Production mode will be choose based on requirement.
 https://github.com/march-dave/webpack-4-test
