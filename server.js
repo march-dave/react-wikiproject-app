@@ -3,7 +3,7 @@ const cors = require('cors')
 const path = require('path');
 const port = process.env.PORT || 3030;
 const morgan = require('morgan');
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 const app = express();
 app.use(cors());
 
@@ -11,8 +11,10 @@ app.use(cors());
 app.use(express.static(__dirname));
 
 app.use(morgan('dev'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.json())
+app.use(express.urlencoded())
 
 app.use('/api', require('./routes/api'));
 
