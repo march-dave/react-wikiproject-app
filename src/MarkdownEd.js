@@ -70,7 +70,6 @@ export default function MarkdownEd() {
         style={{
           height: "500px"
         }}
-        // view={ {menu: false} }
           config={{
             view: {
               menu: false,
